@@ -5,10 +5,9 @@ def reverse_each_word(str)
   temp_array = str.split(" ")
   temp_array.each do |e|
     reverse_array << e.reverse 
-    binding.pry
+    
   end
   reverse_array
-  binding.pry
 end
 
 reverse_each_word("Hello my name is Seth")
