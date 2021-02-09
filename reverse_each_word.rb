@@ -6,6 +6,7 @@ def reverse_each_word(str)
   temp_array.each do |e|
     reverse_array << e.reverse 
     reverse_array.join(' ')
+    binding.pry
   end
   reverse_array
 end
