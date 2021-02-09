@@ -11,6 +11,6 @@ end
 def reverse_each_word(str)
   temp_array = str.split(" ")
   reverse_array = temp_array.collect { |e| e.reverse }
-  reverse_array
+  reverse_array.join(" ")
 end
 #reverse_each_word("Hello my name is Seth")
