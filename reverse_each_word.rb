@@ -7,7 +7,7 @@ def reverse_each_word(str)
     reverse_array << e.reverse 
     
   end
-  reverse_array
+  reverse_array.join(' ')
 end
 
 reverse_each_word("Hello my name is Seth")
