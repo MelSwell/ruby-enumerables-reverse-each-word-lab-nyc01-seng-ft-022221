@@ -6,6 +6,7 @@ def reverse_each_word(str)
     e.reverse
   end
   reverse_array
+  binding.pry
 end
 
 reverse_each_word("Hello my name is Seth")
