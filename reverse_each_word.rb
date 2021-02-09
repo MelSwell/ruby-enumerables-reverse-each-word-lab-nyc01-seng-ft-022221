@@ -3,6 +3,7 @@ require 'pry'
 def reverse_each_word(str)
   reverse_array = str.split(" ")
   reverse_array.each do |e|
+    binding.pry
     e.reverse
   end
   reverse_array
